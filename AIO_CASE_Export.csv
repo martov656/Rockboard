@@ -1,0 +1,12 @@
+﻿S.NO.,Key,Version,Title,Owner
+1,CPG-TC-4,1,"Vytvoření profilu skupiny- fotka ve správném tvaru, profil se v pořádku uloží",Martin Továrek
+2,CPG-TC-5,1,Vytvoření profilu skupiny - fotka ve špatném formátu - profil se neuloží,Martin Továrek
+3,CPG-TC-7,1,"Přihlášení na Rockboard - správné jméno, správné heslo",Martin Továrek
+4,CPG-TC-8,1,"Přihlášení na Rockboard - správné jméno, špatné heslo",Martin Továrek
+5,CPG-TC-9,1,"Přihlášení na Rockboard - špatné jméno, správné heslo",Martin Továrek
+6,CPG-TC-10,1,"Přihlášení na Rockboard - špatné jméno, špatné heslo",Martin Továrek
+7,CPG-TC-38,1,Rockboard - vyhledávání podle názvu kapely,Martin Továrek
+8,CPG-TC-39,1,Rockboard - vyhledávání podle názvu alba,Martin Továrek
+9,CPG-TC-40,1,Rockboard - vyhledávání - název kapely + název alba,Martin Továrek
+10,CPG-TC-41,1,Rockboard - vyhledávání - podle roku,Martin Továrek
+11,CPG-TC-42,1,Rockboard - přidání videa z youtube,Martin Továrek
