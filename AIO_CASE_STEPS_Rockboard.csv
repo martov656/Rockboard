@@ -1,0 +1,44 @@
+﻿S.NO.,Key,Title,Description,Pre-condition,Estimated Effort(in mins),Automation Key,Step Type,Datasets/Examples,Keyword,Steps,Linked Case,Linked Case Version,Data,Expected Result,Step Id
+1,CPG-TC-4,"Vytvoření profilu skupiny- fotka ve správném tvaru, profil se v pořádku uloží",,"Vytvořený profil uživatele na Rockboard.cz, Mozilla Firefox",,,Classic,,,"
+1. fotku nahrajeme ve správném rozlišení - menší než 1024 x 768
+2. fotku nahrajeme ve správném formátu - JPG
+3. dáme pokračovat",,,,Profil se v pořádku uloží,6
+2,CPG-TC-5,Vytvoření profilu skupiny - fotka ve špatném formátu - profil se neuloží,,"Vytvořený účet na webu Rockboard.cz, prohlížeč Mozilla firefox",,,Classic,,,"
+1.  na https://rockboard.cz/diskuze.php?thread=4 (Link: https://rockboard.cz/diskuze.php?thread=4 )  klikneme na vytvořit novou kapelu
+2.  nahraju fotku v rozlišení vyšším než 1024 x 768
+3.  nahraju fotku např. v PNG
+4. kliknu na pokračovat",,,,Profil se neuloží,5
+3,CPG-TC-7,"Přihlášení na Rockboard - správné jméno, správné heslo",,Vytvořený účet na Rockboard.cz,,,Classic,,,"
+1. na https://www.rockboard.cz/ (Link: https://www.rockboard.cz/ )  zadáme správné jméno i heslo
+2. klikneme na přihlásit",,,,Uživatel se v pořádku přihlásí,7
+4,CPG-TC-8,"Přihlášení na Rockboard - správné jméno, špatné heslo",,"Vytvořený účet na Rockboard.cz, prohlížeč Mozilla Firefox",,,Classic,,,"
+1. na https://www.rockboard.cz/ (Link: https://www.rockboard.cz/ )  zadáme správné jméno, špatné heslo
+2. klikneme na přihlásit",,,,Uživatel se  nepřihlásí,8
+5,CPG-TC-9,"Přihlášení na Rockboard - špatné jméno, správné heslo",,"Vytvořený účet na Rockboard.cz, prohlížeč Mozilla Firefox",,,Classic,,,"
+1. na https://www.rockboard.cz/ (Link: https://www.rockboard.cz/ )  zadáme špatné jméno, správné heslo
+2. klikneme na přihlásit",,,,Uživatel se nepřihlásí,9
+6,CPG-TC-10,"Přihlášení na Rockboard - špatné jméno, špatné heslo",,"Vytvořený účet na Rockboard.cz, prohlížeč Mozilla Firefox",,,Classic,,,"
+1. na https://www.rockboard.cz/ (Link: https://www.rockboard.cz/ )  zadáme špatné jméno, špatné heslo
+2. klikneme na přihlásit",,,,Uživatel se nepřihlásí,10
+7,CPG-TC-38,Rockboard - vyhledávání podle názvu kapely,,stránka https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) ,,,Classic,,,"
+1. jsme na hlavní stránce https://rockboard.cz/ (Link: https://rockboard.cz/ ) 
+2. klikneme na profily
+3. do vyhledávání napíšeme ""Journey""
+4. stiskneme hledat",,,,Skupina Journey bude na prvním místě ve vyhledávání.,98
+8,CPG-TC-39,Rockboard - vyhledávání podle názvu alba,,Stránka https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) ,,,Classic,,,"
+1. na stránce https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) 
+2. zadáme název alba The Works",,,,Album The Works bude na prvním místě ve vyhledávání. ,99
+9,CPG-TC-40,Rockboard - vyhledávání - název kapely + název alba,,Stránka https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) ,,,Classic,,,"
+1. na https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) 
+2. zadáme Queen The Works
+3. dáme hledat",,,,Požadované album se najde.,100
+10,CPG-TC-41,Rockboard - vyhledávání - podle roku,,Stránka https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) ,,,Classic,,,"
+1. na https://rockboard.cz/profily-prehled.php (Link: https://rockboard.cz/profily-prehled.php ) 
+2. zadáme rok 1984
+3. dáme hledat",,,,Najdou se nám všechna alba z roku 1984.,101
+11,CPG-TC-42,Rockboard - přidání videa z youtube,,,,,Classic,,,"
+1. na https://www.rockboard.cz/profil.php?gid=428 (Link: https://www.rockboard.cz/profil.php?gid=428 ) 
+2. klikneme na přidat video
+3. vložíme nadpis 
+4. vložíme kód z youtube - sdílet - vložit
+5. klikneme na přidat video",,,,Video z youtube se nám v pořádku uloží.,113
